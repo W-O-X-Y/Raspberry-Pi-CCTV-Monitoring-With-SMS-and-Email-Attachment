@@ -54,7 +54,7 @@ class SMS:
                   ,stdin=message.stdout,stdout=PIPE)
         message.stdout.close()
         output=SMS.communicate()[0]
-#Variables   
+
 emailAddress='YourEmailName@gmail.com' 
 emailPassword="YourEmailPassword"
 
@@ -70,7 +70,7 @@ print('\nAn SMS message will be sent every '+str(maxMotionCount)+' detection(s) 
 
 while True:
 
-    # record h264 videoeo then save as mp4
+    # record h264 video then save as mp4
     pir.wait_for_motion()
     print("\n"+str(motionCount)+" Motion(s) Detected")
    
